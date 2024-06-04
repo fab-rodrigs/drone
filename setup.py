@@ -1,3 +1,8 @@
+# https://github.com/Delta-High-Team/cbr-2024/blob/main/drone_108/src/face_tracking/face_tracking/face_tracking_no_node.py
+# https://dronekit-python.readthedocs.io/en/latest/guide/index.html
+# https://mavlink.io/en/getting_started/
+# https://ardupilot.org/planner/docs/mission-planner-installation.html
+
 from dronekit import connect, VehicleMode, LocationGlobalRelative
 import time
 
