@@ -167,6 +167,12 @@ def main(drone):
             # Aqui você pode ajustar as coordenadas de destino conforme necessário
             target_ned = [5, 0, 0]  # Exemplo: mover 5 metros para a frente
             send_position_target_local_ned(target_ned, drone, yaw_angle=0)
+
+            #latitude = 0
+            #longitude = 0
+            #altitude = 0
+            #send_position_target_global_int(latitude, longitude, altitude, drone)
+            
             time.sleep(1)
     except KeyboardInterrupt:
         pass
